@@ -1,0 +1,18 @@
+Package: montyhall
+Title: Simulate the Monty Hall Problem
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alissa", "Power", , "almowrey@asu.edu", role = c("aut", "cre"))
+Description: Provides functions for simulating the Monty Hall problem.
+    The package allows users to create a game, select and open doors,
+    apply stay or switch strategies, determine game outcomes, and run
+    repeated simulations to compare strategies.
+Depends:
+    dplyr
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
